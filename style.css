@@ -1,0 +1,161 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Jun-2020, 12:42:21 PM
+    Author     : grv
+*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    height: 48px;
+    text-decoration: none;
+    
+    
+    
+}
+#login,#sign{
+    float: right;
+    display: inline;
+    text-align: center;
+    
+    padding: 0px 25px;
+    
+}
+ul{
+   padding-top: 10px;
+}
+li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 18px 16px;
+}
+a{
+    color: white;
+}
+li a:hover{
+    color: grey;
+}
+
+
+.back{
+    background-image: url(img/cafe.jpg);
+    height: 850px;
+}
+h1{
+    font-family: 'Trochut', cursive;
+    color: chocolate;
+    margin: 140px;
+    padding: 2px;
+    font-size: 122px;
+}
+.order-form{
+    margin: 10px;
+    padding: 3px;
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'Trochut', cursive;
+    color: orange;
+    
+}
+
+.form input{
+    width: 478px;
+    height: 41px;
+    padding: 0px;
+    margin: 2px;
+}
+    h3{
+        font-size: 48px;
+         color: coral;
+        
+    }
+
+.content{
+    background-color: rgba(161, 103, 61, 0.808);
+    font-weight: bold;
+    color: rgb(184, 15, 15);
+    margin: 0px;
+    padding: 1px;
+    
+}
+h3{
+    color: #000;
+}
+.items{
+    margin: 0%;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    /* width: 80%; */
+    /*margin-left: 20%;
+    margin-right: 20%;*/
+     flex-direction: row;
+     align-items: center;
+     background-color: burlywood;
+
+}
+    
+.item{
+    /* border: 2px solid red; */
+    /* width: 100%; */
+    margin: 2px;
+    font-weight: bolder;
+    font-size: 32px;
+    background-color: rgb(189, 136, 136);
+    
+    
+
+
+}
+img{
+    size: 200px 500px;
+
+}
+h5{
+    font-size: 32px;
+    margin: 0px;
+    margin-left: 66px
+}
+button{
+    height: 37px;
+    width: 264px;
+}
+h2{
+    margin: 0px;
+}
+h3{
+    margin: 0px;
+}
+.gallery{
+display: flex;
+/* border: 2px solid red; */
+height: 600px;
+
+}
+.photo{
+    width:800px;
+    margin: 5px;
+}
+.footer{
+    background-color: #000;
+    color:#fff;
+    font-size:14px; 
+    height: 50px;
+    padding-top: 19px;
+    margin-top: 5px;
+}
+p{
+    margin-top: 10px;
+}
+    
+
